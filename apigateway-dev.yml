@@ -13,7 +13,7 @@ spring:
           uri: http://localhost:8084/ #URL donde se hará el redirect segun el predicate definido
           predicates: #RReglas de análisis de una request
             - Path=/movies/**
-        - id: serieRoute #Identificando la ruta del service de producto
+        - id: seriesRoute #Identificando la ruta del service de producto
           uri: http://localhost:8086/ #URL donde se hará el redirect segun el predicate definido
           predicates: #RReglas de análisis de una request
             - Path=/series/**
